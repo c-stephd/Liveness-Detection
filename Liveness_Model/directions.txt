@@ -1,0 +1,22 @@
+Steps to test the model via webcam or single image
+
+1. cd to the location of the Liveness_Model directory on Anaconda prompt
+	>cd C:\Users\HP\Desktop\Liveness_Model
+
+2. Create a virtual environment 
+	>conda create -n "liveness_env" python=3.6
+
+3.  Activate the created environment
+	>conda activate liveness_env
+
+4. Install the required libraries 
+	>pip install -r requirements.txt
+
+For the test via webcam go to step 5
+For the test for a single image go to step 6
+
+5. Once the installation is complete, call the 'liveness.py'
+	>python liveness.py
+
+6. Once the installation is complete, call the 'liveness.py'
+	>python imagetest_liveness.py --path (path_to_image)
